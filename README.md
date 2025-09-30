@@ -1,6 +1,6 @@
 *This module was created by Igor GTDS*
 
-Run it to make a esploratory analyses with:
+Run it to make a esploratory analyses as:
 
 Verifica tipos de dados, tamanho da amostra;
 Conta nulos e duplicatas;
