@@ -9,7 +9,7 @@ if __name__ == "__main__":
     # run_eda(df, dataset_name="seu_arquivo.csv")
 
     # 2) Ou detectar automaticamente o maior CSV do diretório atual:
-    path = 'C:/Users/igtsilva/OneDrive - GOL Linhas Aéreas S A/Área de Trabalho/Igor - Reliability/Local_data_bases/info_acft.xlsx'
+    path = 'YOURPATH+YOUR_FILE'
     df = pd.read_excel(path)
     
     run_eda(df, dataset_name=os.path.basename(path))
