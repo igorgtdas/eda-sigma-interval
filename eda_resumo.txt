@@ -1,0 +1,23 @@
+EDA para: info_acft.xlsx
+Formato: 144 linhas × 13 colunas
+
+Colunas com valores ausentes: 1 de 13
+Top colunas com mais ausências:
+  - prod_number: 95 (65.97%)
+
+Linhas duplicadas: 0
+
+Colunas numéricas: 4 → serialno, line_number, tah, tac
+
+Colunas categóricas: 9 → acft, ac_typ, ac_model, description, variable_number, prod_number, mfg_date, del_date…
+
+⚠️ Alertas potenciais:
+ - 1 colunas com ausências
+ - 4/4 colunas numéricas não parecem normais (α=0.05)
+ - Outliers pelo IQR em 1 colunas numéricas
+
+Sugestões próximas etapas:
+ - Tratar ausências (imputação por média/mediana/moda ou modelos); avaliar descartar colunas com muita ausência.
+ - Para colunas não normais: transformação (log/Box-Cox) ou métodos não paramétricos.
+ - Padronizar/normalizar variáveis para modelos sensíveis à escala.
+ - Verificar colinearidade; usar regularização ou redução de dimensionalidade se necessário.

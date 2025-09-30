@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+src/EDA_Igor.egg-info/PKG-INFO
+src/EDA_Igor.egg-info/SOURCES.txt
+src/EDA_Igor.egg-info/dependency_links.txt
+src/EDA_Igor.egg-info/requires.txt
+src/EDA_Igor.egg-info/top_level.txt
+src/eda_igor.egg-info/PKG-INFO
+src/eda_igor.egg-info/SOURCES.txt
+src/eda_igor.egg-info/dependency_links.txt
+src/eda_igor.egg-info/requires.txt
+src/eda_igor.egg-info/top_level.txt
+src/modelo_eda_igor/__init__.py
+src/modelo_eda_igor/eda.py

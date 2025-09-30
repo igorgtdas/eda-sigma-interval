@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eda_igor" #nome do Módulo
+version = "0.1.0" #Vesão do módulo
+description = "EDA (Exploratory Data Analysis) antes de iniciar qualquer análise de dados, realizar análise exploratória" #
+authors = [{ name = "Igor", email = "igor_goncalvestomaz@hotmail.com" }] # Autor e e-mail
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pandas>=2.0",
+    "matplotlib>=3.7",
+    "numpy>=1.26",
+    "scipy>=1.10"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
