@@ -66,6 +66,8 @@ Suggested next steps:
  - Standardize/normalize variables if using scale-sensitive models
  - Check for collinearity; use regularization or dimensionality reduction if needed
 
+```
+
 # 📌 Normalidade e Outliers (variáveis numéricas)
 
 Quando analisamos colunas numéricas, é importante entender:
