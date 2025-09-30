@@ -1,42 +1,66 @@
-*This module was created by Igor GTDS*
+# 📊 Exploratory Data Analysis (EDA) Module  
+# 📊 Módulo de Análise Exploratória de Dados (EDA)  
 
-Run it to make a esploratory analyses as:
+*This module was created by **Igor GTDS***  
+*Este módulo foi criado por **Igor GTDS***  
 
-Verifica tipos de dados, tamanho da amostra;
-Conta nulos e duplicatas;
-Calcula estatísticas descritivas;
-Faz histogramas, QQ-plots, boxplots e matriz de correlação;
-Testa normalidade (D’Agostino/Shapiro) e identifica outliers (IQR);
-Resume tudo em um relatório textual com próximos passos.
+---
 
+## 🚀 What this module does  
+## 🚀 O que este módulo faz  
 
-*Para 
+Run the module to perform an **exploratory data analysis (EDA)** with the following steps:  
+Rode o módulo para executar uma **análise exploratória de dados (EDA)** com as seguintes etapas:  
 
-*The EDA will return a report in texts format as below:*
+- ✅ Checks **data types** and **sample size**  
+- ✅ Verifica **tipos de dados** e **tamanho da amostra**  
 
-EDA para: demo_dataset.csv
-Formato: 1001 linhas × 6 colunas
+- ✅ Counts **null values** and **duplicates**  
+- ✅ Conta **valores nulos** e **duplicatas**  
 
-Colunas com valores ausentes: 2 de 6
-Top colunas com mais ausências:
+- ✅ Computes **descriptive statistics**  
+- ✅ Calcula **estatísticas descritivas**  
+
+- ✅ Generates **histograms, QQ-plots, boxplots, correlation matrix**  
+- ✅ Gera **histogramas, QQ-plots, boxplots e matriz de correlação**  
+
+- ✅ Tests **normality** (D’Agostino / Shapiro)  
+- ✅ Testa **normalidade** (D’Agostino / Shapiro)  
+
+- ✅ Detects **outliers** using **IQR**  
+- ✅ Identifica **outliers** via **IQR**  
+
+- ✅ Summarizes results into a **textual report with next steps**  
+- ✅ Resume tudo em um **relatório textual com próximos passos**  
+
+---
+
+## 📄 Example of report output  
+## 📄 Exemplo de saída do relatório  
+
+```text
+EDA for: demo_dataset.csv
+Format: 1001 rows × 6 columns
+
+Columns with missing values: 2 out of 6
+Top columns with most missing:
   - peso_kg: 50 (5.0%)
   - cidade: 25 (2.5%)
 
-Linhas duplicadas: 1
+Duplicate rows: 1
 
-Colunas numéricas: 4 → altura_cm, peso_kg, salario, idade
+Numeric columns: 4 → altura_cm, peso_kg, salario, idade
+Categorical columns: 2 → sexo, cidade
 
-Colunas categóricas: 2 → sexo, cidade
+⚠️ Potential alerts:
+ - 1 duplicate row
+ - 2 columns with missing values
+ - 2/4 numeric columns do not appear normal (α=0.05)
+ - Outliers detected via IQR in 3 numeric columns
 
-⚠️ Alertas potenciais:
- - 1 linhas duplicadas
- - 2 colunas com ausências
- - 2/4 colunas numéricas não parecem normais (α=0.05)
- - Outliers detectados via IQR em 3 colunas numéricas
-
-Sugestões próximas etapas:
- - Tratar ausências: imputação (média/mediana/moda) ou model-based; avaliar exclusão de colunas com muita ausência.
- - Remover/justificar duplicatas totais; investigar chaves primárias.
- - Para colunas não normais: considerar transformação (log/Box-Cox) ou métodos não paramétricos.
- - Padronizar/normalizar variáveis se for usar modelos sensíveis à escala.
- - Avaliar colinearidade; reduzir dimensionalidade ou regularização se necessário.
+Suggested next steps:
+ - Handle missing values: imputation (mean/median/mode) or model-based; consider dropping columns with too many missing values
+ - Remove/justify duplicate rows; investigate primary keys
+ - For non-normal columns: consider transformation (log/Box-Cox) or non-parametric methods
+ - Standardize/normalize variables if using scale-sensitive models
+ - Check for collinearity; use regularization or dimensionality reduction if needed
