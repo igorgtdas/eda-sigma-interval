@@ -1,5 +1,4 @@
 # 📊 Exploratory Data Analysis (EDA) Module  
-# 📊 Módulo de Análise Exploratória de Dados (EDA)  
 
 *This module was created by **Igor GTDS***  
 *Este módulo foi criado por **Igor GTDS***  
@@ -7,36 +6,20 @@
 ---
 
 ## 🚀 What this module does  
-## 🚀 O que este módulo faz  
 
 Run the module to perform an **exploratory data analysis (EDA)** with the following steps:  
-Rode o módulo para executar uma **análise exploratória de dados (EDA)** com as seguintes etapas:  
 
 - ✅ Checks **data types** and **sample size**  
-- ✅ Verifica **tipos de dados** e **tamanho da amostra**  
-
 - ✅ Counts **null values** and **duplicates**  
-- ✅ Conta **valores nulos** e **duplicatas**  
-
 - ✅ Computes **descriptive statistics**  
-- ✅ Calcula **estatísticas descritivas**  
-
 - ✅ Generates **histograms, QQ-plots, boxplots, correlation matrix**  
-- ✅ Gera **histogramas, QQ-plots, boxplots e matriz de correlação**  
-
 - ✅ Tests **normality** (D’Agostino / Shapiro)  
-- ✅ Testa **normalidade** (D’Agostino / Shapiro)  
-
 - ✅ Detects **outliers** using **IQR**  
-- ✅ Identifica **outliers** via **IQR**  
-
 - ✅ Summarizes results into a **textual report with next steps**  
-- ✅ Resume tudo em um **relatório textual com próximos passos**  
 
 ---
 
 ## 📄 Example of report output  
-## 📄 Exemplo de saída do relatório  
 
 ```text
 
