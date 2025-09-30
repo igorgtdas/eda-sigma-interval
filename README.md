@@ -126,7 +126,7 @@ Método baseado em **quartis**:
 
 ---
 
-# 📌 Exemplo prático (idade dos funcionários)
+# Exemplo prático (idade dos funcionários)
 
 - Média = `40 anos`  
 - Skew = `0,2` → quase simétrica  
@@ -145,3 +145,41 @@ Método baseado em **quartis**:
 - **Teste + p-value** → indicam se pode ser considerada normal  
 - **IQR (low/high)** → ajudam a identificar outliers numéricos  
 
+----
+
+# 📌 O que é um QQ-plot?
+
+**QQ-plot** significa *Quantile-Quantile Plot*.  
+É um gráfico usado para **comparar a distribuição dos seus dados com uma distribuição teórica** (geralmente a normal).
+
+---
+
+## 🔎 Como funciona?
+
+1. Calcula-se os **quantis dos seus dados** (pontos que dividem a distribuição, tipo percentis).  
+2. Calcula-se os **quantis da distribuição de referência** (ex.: normal teórica).  
+3. Faz-se um gráfico:  
+   - **Eixo X** = quantis da distribuição teórica  
+   - **Eixo Y** = quantis dos seus dados  
+
+👉 Se os pontos ficarem próximos da **linha reta diagonal** → os dados seguem bem a distribuição teórica.  
+👉 Se os pontos **se curvam ou desviam muito** → os dados não seguem aquela distribuição.  
+
+---
+
+## 📌 Interpretação visual
+
+- **Linha reta 45° (diagonal):** dados seguem bem a normal.  
+- **Curva em S:** caudas mais pesadas ou leves que a normal (diferença de curtose).  
+- **Curva inclinada:** dados assimétricos (skew).  
+- **Pontinhos soltos nas extremidades:** outliers.  
+
+---
+
+## 📌 Exemplo prático
+
+Se você tem um dataset com a **idade dos funcionários**:  
+
+- Se as idades são aproximadamente normais → pontos caem na diagonal.  
+- Se tem muitos jovens e poucos idosos (**skew positivo**) → os pontos no topo se desviam para cima.  
+- Se tem muita concentração perto da média → pontos no meio se curvam.  
