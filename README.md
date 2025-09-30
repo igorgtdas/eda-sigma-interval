@@ -126,7 +126,7 @@ Método baseado em **quartis**:
 
 ---
 
-# Exemplo prático (idade dos funcionários)
+## Exemplo prático (idade dos funcionários)
 
 - Média = `40 anos`  
 - Skew = `0,2` → quase simétrica  
